@@ -1,0 +1,11 @@
+
+
+.mainDiv {
+  width: 350px;
+  height: 460px;
+  padding: 41px 47px;
+  margin-top: 90px;
+  margin-left: 270px;
+  background: rgba(255, 255, 255, .75);
+  border-radius: 10px; 
+}

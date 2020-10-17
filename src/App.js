@@ -1,13 +1,23 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header'
+import Navbar from './components/Navbar'
+import Jumbotron from './components/Jumbotron';
+import Jumbotron2 from './components/Jumbotron2';
+import Jumbotron3 from './components/Jumbotron3';
+import Jumbotron4 from './components/Jumbotron4';
+import Jumbotron5 from './components/Jumbotron5';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <h1>My Equity App</h1>
+      <Navbar />
+      <Jumbotron />
+      <Jumbotron2 />
+      <Jumbotron3 />
+      <Jumbotron4 />
+      <Jumbotron5 />
     </div>
   );
 }
