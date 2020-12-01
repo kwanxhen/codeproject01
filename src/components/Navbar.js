@@ -1,5 +1,8 @@
 import React from "react";
 import logoSVG from "../images/link 1.svg";
+import LoginModal from './Login_Modal/login'
+import SignupModal from './Login_Modal/signup'
+
 
 function Navbar() {
   const nav = {
@@ -39,7 +42,7 @@ function Navbar() {
 
   return (
     <nav class="navbar navbar-expand-xl navbar-dark" style={nav}>
-      
+
       <a class="navbar-brand" href="#" style={brand}>
         <img src={logoSVG} style={logo}></img>
         EquityEx
@@ -74,12 +77,16 @@ function Navbar() {
         </form>
 
         {/* Login and sign up buttons */}
+        {/*
         <button type="button" class="btn" style={signupBtn}>
           Sign Up
         </button>
         <button type="button" class="btn" style={loginBtn}>
           Login
         </button>
+        */}
+        <SignupModal/>
+        <LoginModal/>
       </div>
     </nav>
   );

@@ -1,0 +1,71 @@
+input:focus {
+	outline:none;
+}
+
+button:focus {
+	outline:none;
+}
+.signupfield {
+	display: flex;
+ 	width: 80%;
+ 	align-self: center;
+ 	margin: 10px 0;
+ 	border-radius: 15px;
+ 	height: 50px;
+ 	padding: 0 10px;
+ 	border: none;
+ 	box-shadow: 1px 3px 5px #888888;
+}
+
+.signupfield:focus {
+	border-radius: 15px;
+	border: 2px solid #0E5FAF;
+}
+
+.signupheader {
+	color: #01427E;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	display:flex;
+	justify-content: center;
+	font-size: 60px;
+}
+
+.signupbutton{
+	display: flex;
+ 	width: 80%;
+ 	align-self: center;
+ 	margin: 10px 0;
+ 	border-radius: 15px;
+ 	height: 65px;
+ 	padding: 0 10px;
+ 	border: none;
+ 	box-shadow: 1px 3px 5px #888888;
+ 	background-color: #01427E;
+ 	color: white;
+ 	justify-content: center;
+ 	align-items: center;
+ 	font-size: 20px;
+}
+.checkboxborder{
+ 	width: 80%;
+ 	align-self: center;
+ 	margin: 10px 0;
+ 	border: none;
+ 	font-size: 13px;
+}
+.checkbox{
+	box-shadow: 2px 1px 4px #888888;
+	margin-right: 7px;
+}
+.checkboxtext{
+	align-self: center;
+	width: 80%;
+}
+.ortext{
+	margin: 0 7px;
+}
+
+.bottomspace{
+	height: 40px;
+}
